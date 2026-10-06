@@ -171,21 +171,31 @@ Five sixteen-robot recordings are in [`videos/`](videos/README.md). Each clip sh
 
 **t17.** Paris_0_512, leaf side 64, 256 frontier viewpoints, lidar 5 m. Coarse tiles on the radial boulevards, with a large distance matrix at every planning cycle.
 
+<video src="videos/t17-paris512-k256-b64.mp4" controls width="720"></video>
+
 https://github.com/ozaslan/htrip/blob/main/videos/t17-paris512-k256-b64.mp4
 
 **t16.** The same Paris map and 256 frontiers, with leaf side 32. The boulevards cross more tiles, and an opening updates a shorter ancestor chain.
+
+<video src="videos/t16-paris512-k256-b32.mp4" controls width="720"></video>
 
 https://github.com/ozaslan/htrip/blob/main/videos/t16-paris512-k256-b32.mp4
 
 **t13.** Paris_0_512, leaf side 64, 50 frontiers, lidar 5 m. The hierarchy stays coarse and the query matrix is the smaller frontier set from the exploration table.
 
+<video src="videos/t13-paris512-k50-b64.mp4" controls width="720"></video>
+
 https://github.com/ozaslan/htrip/blob/main/videos/t13-paris512-k50-b64.mp4
 
 **t08.** NewYork_0_512, the orthogonal Manhattan grid, leaf side 8, 50 frontiers, lidar 5 m. Long avenues sit in a fine tiling. This street map is a demonstration; it is not one of the six evaluation grids under `datasets/`.
 
+<video src="videos/t08-newyork512-k50-b8.mp4" controls width="720"></video>
+
 https://github.com/ozaslan/htrip/blob/main/videos/t08-newyork512-k50-b8.mp4
 
 **t03.** maze512-16-0, corridors 16 cells wide, leaf side 16, lidar 4 m at 90 degrees, 50 frontiers. This is the narrow-corridor exploration row for paper map M4. The grid is `datasets/movingai/maze/maps/maze512-16-0.map`.
+
+<video src="videos/t03-maze512-16-k50-r4.mp4" controls width="720"></video>
 
 https://github.com/ozaslan/htrip/blob/main/videos/t03-maze512-16-k50-r4.mp4
 
