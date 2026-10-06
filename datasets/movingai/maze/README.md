@@ -9,11 +9,11 @@ The two files in this folder are Moving AI maze grids used as M3 and M4 in the H
 
 M3 is a tree of one-cell corridors, so a shortest path between distant cells is a long unique route. M4 uses the same generator with corridors 16 cells wide. Both files belong to the maze benchmark set published with the Moving AI grid collection. The street maps used beside them live in [`../street/maps/`](../street/maps/). The six-map list is in [`../README.md`](../README.md).
 
-Sixteen robots exploring M4 with a 4 m lidar, leaf side 16, and 50 frontiers are recorded as t03:
+Sixteen robots exploring M4 with a 4 m lidar, leaf side 16, and 50 frontiers are recorded as video-05:
 
-<video src="../../../videos/t03-maze512-16-k50-r4.mp4" controls width="720"></video>
+<video src="../../../videos/video-05.mp4" controls width="720"></video>
 
-https://github.com/ozaslan/htrip/blob/main/videos/t03-maze512-16-k50-r4.mp4
+https://github.com/ozaslan/htrip/blob/main/videos/video-05.mp4
 
 The corridor is 16 cells wide. The fleet opens a short stretch of maze at each scan, and the planner keeps 50 frontier viewpoints on the occupancy revealed so far. The other four recordings are in [`../../../videos/README.md`](../../../videos/README.md).
 
