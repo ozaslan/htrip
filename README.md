@@ -2,6 +2,8 @@
 
 Hierarchical Tropical Rank-one Incremental Propagation
 
+![HTRIP clay letters standing on a folded map, with routes drawn across the letters](images/htrip-banner.png)
+
 HTRIP (Hierarchical Tropical Rank-one Incremental Propagation) is a C++20 library for exact many-to-many shortest paths on a growing occupancy grid. It partitions the known map into tiles, stores port-to-port distances in the min-plus semiring, and inserts each newly revealed free cell as a rank-one update that propagates only decreased summaries to ancestor tiles. A shared hierarchical lift then fills the dense distance matrix among the active robot poses and frontier viewpoints.
 
 This repository is that library. It contains the sources, the tests, the command-line benchmarks, the six Moving AI maps used in the evaluation, and five exploration recordings. The index kernels require AVX2. The library compiles on its own, without the H-BRICK sources.
