@@ -11,7 +11,7 @@ M3 is a tree of one-cell corridors, so a shortest path between distant cells is 
 
 Sixteen robots exploring M4 with a 4 m lidar, leaf side 16, and 50 frontiers are recorded as t03:
 
-<video src="https://github.com/ozaslan/htrip/raw/main/videos/t03-maze512-16-k50-r4.mp4" controls width="720" playsinline></video>
+https://github.com/ozaslan/htrip/blob/main/videos/t03-maze512-16-k50-r4.mp4
 
 The corridor is 16 cells wide. The fleet opens a short stretch of maze at each scan, and the planner keeps 50 frontier viewpoints on the occupancy revealed so far. The other four recordings are in [`../../../videos/README.md`](../../../videos/README.md).
 
