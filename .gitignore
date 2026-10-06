@@ -1,0 +1,58 @@
+# Build directories and CMake artifacts
+build/
+/bin/
+/lib/
+Testing/
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
+
+# Caches
+.cache/
+
+# Local benchmark output
+campaigns/
+
+# Exploration frame dumps from a local recording
+*.ppm
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Profiling
+callgrind*.out
+*.callgrind
+cachegrind*.out
+*.perf.data
+
+# Editor and OS temporary files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+*.lock
+*.log
+
+# AI coding-tool state and instructions. These stay on the machine
+# that used the tool and are not part of the library.
+.cursor/
+.cursorrules
+.cursorignore
+.cursorindexingignore
+.agents/
+.codex/
+.kilo/
+.claude/
+.aider*
+.continue/
+.windsurf/
+.cline/
+.roo/
+.gemini/
+.copilot/
+AGENTS.md
+CLAUDE.md
+copilot-instructions.md
+.github/copilot-instructions.md
