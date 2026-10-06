@@ -169,34 +169,34 @@ scripts/run_manuscript_benchmarks.sh --quick
 
 ## Exploration videos
 
-Five sixteen-robot recordings are in [`videos/`](videos/README.md). Each clip shows the fleet opening free space and replanning on the occupancy revealed so far.
+Five sixteen-robot recordings are in [`videos/`](videos/README.md). Each clip shows the fleet opening free space and replanning on the occupancy revealed so far. The player is the smaller upload. The link under it is the full-size file in this repository.
 
 **video-01.** Paris_0_512, leaf side 64, 256 frontier viewpoints, lidar 5 m. Coarse tiles on the radial boulevards, with a large distance matrix at every planning cycle.
 
-<video src="videos/video-01.mp4" controls width="720"></video>
+https://github.com/user-attachments/assets/7d9afdfe-2027-43fe-8a18-52bc48654f19
 
-[video-01.mp4](videos/video-01.mp4)
+Full-size file: [video-01.mp4](videos/video-01.mp4)
 
 **video-02.** The same Paris map and 256 frontiers, with leaf side 32. The boulevards cross more tiles, and an opening updates a shorter ancestor chain.
 
-<video src="videos/video-02.mp4" controls width="720"></video>
+https://github.com/user-attachments/assets/34d3664b-374b-4582-be09-8a81a305544f
 
-[video-02.mp4](videos/video-02.mp4)
+Full-size file: [video-02.mp4](videos/video-02.mp4)
 
 **video-03.** Paris_0_512, leaf side 64, 50 frontiers, lidar 5 m. The hierarchy stays coarse and the query matrix is the smaller frontier set from the exploration table.
 
-<video src="videos/video-03.mp4" controls width="720"></video>
+https://github.com/user-attachments/assets/163187bd-fe27-4eed-8909-619dd706fbdb
 
-[video-03.mp4](videos/video-03.mp4)
+Full-size file: [video-03.mp4](videos/video-03.mp4)
 
 **video-04.** NewYork_0_512, the orthogonal Manhattan grid, leaf side 8, 50 frontiers, lidar 5 m. Long avenues sit in a fine tiling. This street map is a demonstration; it is not one of the six evaluation grids under `datasets/`.
 
-<video src="videos/video-04.mp4" controls width="720"></video>
+https://github.com/user-attachments/assets/26f35ff0-8f19-4272-865a-baa02246fd18
 
-[video-04.mp4](videos/video-04.mp4)
+Full-size file: [video-04.mp4](videos/video-04.mp4)
 
 **video-05.** maze512-16-0, corridors 16 cells wide, leaf side 16, lidar 4 m at 90 degrees, 50 frontiers. This is the narrow-corridor exploration row for paper map M4. The grid is `datasets/movingai/maze/maps/maze512-16-0.map`.
 
-<video src="videos/video-05.mp4" controls width="720"></video>
+https://github.com/user-attachments/assets/c9761dc5-ac40-4d06-8c8c-3786b615c79b
 
-[video-05.mp4](videos/video-05.mp4)
+Full-size file: [video-05.mp4](videos/video-05.mp4)
