@@ -173,43 +173,28 @@ Five sixteen-robot recordings are in [`videos/`](videos/README.md). Each clip sh
 
 <video src="videos/video-01.mp4" controls width="720"></video>
 
-https://github.com/ozaslan/htrip/blob/main/videos/video-01.mp4
+[video-01.mp4](videos/video-01.mp4)
 
 **video-02.** The same Paris map and 256 frontiers, with leaf side 32. The boulevards cross more tiles, and an opening updates a shorter ancestor chain.
 
 <video src="videos/video-02.mp4" controls width="720"></video>
 
-https://github.com/ozaslan/htrip/blob/main/videos/video-02.mp4
+[video-02.mp4](videos/video-02.mp4)
 
 **video-03.** Paris_0_512, leaf side 64, 50 frontiers, lidar 5 m. The hierarchy stays coarse and the query matrix is the smaller frontier set from the exploration table.
 
 <video src="videos/video-03.mp4" controls width="720"></video>
 
-https://github.com/ozaslan/htrip/blob/main/videos/video-03.mp4
+[video-03.mp4](videos/video-03.mp4)
 
 **video-04.** NewYork_0_512, the orthogonal Manhattan grid, leaf side 8, 50 frontiers, lidar 5 m. Long avenues sit in a fine tiling. This street map is a demonstration; it is not one of the six evaluation grids under `datasets/`.
 
 <video src="videos/video-04.mp4" controls width="720"></video>
 
-https://github.com/ozaslan/htrip/blob/main/videos/video-04.mp4
+[video-04.mp4](videos/video-04.mp4)
 
 **video-05.** maze512-16-0, corridors 16 cells wide, leaf side 16, lidar 4 m at 90 degrees, 50 frontiers. This is the narrow-corridor exploration row for paper map M4. The grid is `datasets/movingai/maze/maps/maze512-16-0.map`.
 
 <video src="videos/video-05.mp4" controls width="720"></video>
 
-https://github.com/ozaslan/htrip/blob/main/videos/video-05.mp4
-
-## Citing this work
-
-The paper is under review. Please do not cite it as a published article, and do not add a volume, issue, page range, or DOI.
-
-Özaslan, E. A. and Özaslan, T. H-TRIP: Exact Many-to-Many Distance Index for Multi-Robot Exploration. Under review for the IEEE International Conference on Robotics and Automation (ICRA) 2027.
-
-```bibtex
-@unpublished{ozaslan2027htrip,
-  author = {Ozaslan, Elif Altinay and Ozaslan, Tolga},
-  title  = {H-TRIP: Exact Many-to-Many Distance Index for Multi-Robot Exploration},
-  note   = {Under review for the IEEE International Conference on Robotics and Automation (ICRA) 2027},
-  year   = {2027}
-}
-```
+[video-05.mp4](videos/video-05.mp4)

@@ -8,7 +8,7 @@ Paris_0_512, radial boulevards. Sixteen robots, lidar 5 m at 90 degrees with 30 
 
 <video src="video-01.mp4" controls width="720"></video>
 
-https://github.com/ozaslan/htrip/blob/main/videos/video-01.mp4
+[video-01.mp4](video-01.mp4)
 
 ## video-02 — Paris, leaf 32, 256 frontiers
 
@@ -16,7 +16,7 @@ The same Paris map, lidar, and 256 frontiers, with leaf side 32. Boulevards are 
 
 <video src="video-02.mp4" controls width="720"></video>
 
-https://github.com/ozaslan/htrip/blob/main/videos/video-02.mp4
+[video-02.mp4](video-02.mp4)
 
 ## video-03 — Paris, leaf 64, 50 frontiers
 
@@ -24,7 +24,7 @@ Paris_0_512 again, leaf side 64, with the frontier count used in the exploration
 
 <video src="video-03.mp4" controls width="720"></video>
 
-https://github.com/ozaslan/htrip/blob/main/videos/video-03.mp4
+[video-03.mp4](video-03.mp4)
 
 ## video-04 — New York, leaf 8, 50 frontiers
 
@@ -32,7 +32,7 @@ NewYork_0_512, an orthogonal Manhattan grid from the same Moving AI street colle
 
 <video src="video-04.mp4" controls width="720"></video>
 
-https://github.com/ozaslan/htrip/blob/main/videos/video-04.mp4
+[video-04.mp4](video-04.mp4)
 
 ## video-05 — maze512-16-0, 4 m lidar
 
@@ -40,4 +40,4 @@ maze512-16-0, corridors 16 cells wide. Sixteen robots, lidar 4 m at 90 degrees w
 
 <video src="video-05.mp4" controls width="720"></video>
 
-https://github.com/ozaslan/htrip/blob/main/videos/video-05.mp4
+[video-05.mp4](video-05.mp4)

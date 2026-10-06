@@ -13,7 +13,7 @@ Sixteen robots exploring M4 with a 4 m lidar, leaf side 16, and 50 frontiers are
 
 <video src="../../../videos/video-05.mp4" controls width="720"></video>
 
-https://github.com/ozaslan/htrip/blob/main/videos/video-05.mp4
+[video-05.mp4](../../../videos/video-05.mp4)
 
 The corridor is 16 cells wide. The fleet opens a short stretch of maze at each scan, and the planner keeps 50 frontier viewpoints on the occupancy revealed so far. The other four recordings are in [`../../../videos/README.md`](../../../videos/README.md).
 
